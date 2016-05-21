@@ -5,15 +5,18 @@
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).
+
+The editor implements the GSN standard as specified at www.goalstructuringnotation.info and the ARM standard available from sysa.omg.org
    </description>
 
    <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+       Copyright (C) 2016 PizzaFactory Project\\n
+       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/ 
    </copyright>
 
    <license url="http://www.example.com/license">
-      [Enter License Description here.]
+      EPL-1.0
    </license>
 
    <plugin
