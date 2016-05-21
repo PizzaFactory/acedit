@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ACEDIT.FEATURE_1.0.0.qualifier.jar" id="ACEDIT.FEATURE" version="1.0.0.qualifier">
+      <category name="acedit"/>
+   </feature>
+   <category-def name="acedit" label="Assurance Case Editor">
+      <description>
+         Editor for GSN/OMG-ARM
+      </description>
+   </category-def>
+</site>
