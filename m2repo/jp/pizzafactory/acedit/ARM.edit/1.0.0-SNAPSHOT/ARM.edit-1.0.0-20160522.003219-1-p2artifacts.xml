@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='ARM.edit' version='1.0.0.v20160522-0017'>
+    <properties size='5'>
+      <property name='artifact.size' value='48135'/>
+      <property name='download.size' value='48135'/>
+      <property name='maven-groupId' value='jp.pizzafactory.acedit'/>
+      <property name='maven-artifactId' value='ARM.edit'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='ARM.edit.source' version='1.0.0.v20160522-0017'>
+    <properties size='6'>
+      <property name='artifact.size' value='27476'/>
+      <property name='download.size' value='27476'/>
+      <property name='maven-groupId' value='jp.pizzafactory.acedit'/>
+      <property name='maven-artifactId' value='ARM.edit'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+    </properties>
+  </artifact>
+</artifacts>
