@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='4'>
+  <unit id='ACEDIT.FEATURE.feature.group' version='1.0.0.v20160522-0017' singleton='false'>
+    <update id='ACEDIT.FEATURE.feature.group' range='[0.0.0,1.0.0.v20160522-0017)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='FEATURE'/>
+      <property name='org.eclipse.equinox.p2.description' value='Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).&#xA;&#xA;The editor implements the GSN standard as specified at www.goalstructuringnotation.info and the ARM standard available from sysa.omg.org'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='jp.pizzafactory.acedit'/>
+      <property name='maven-artifactId' value='ACEDIT.FEATURE'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.feature.group' version='1.0.0.v20160522-0017'/>
+    </provides>
+    <requires size='13'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.diagram' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.edit' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.editor' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.diagram' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.edit' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.editor' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.figures' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.transformation' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.validation' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.wizards' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.feature.jar' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      Copyright (C) 2016 PizzaFactory Project\\n&#xA;       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/
+    </copyright>
+  </unit>
+  <unit id='ACEDIT.FEATURE.feature.jar' version='1.0.0.v20160522-0017'>
+    <properties size='6'>
+      <property name='org.eclipse.equinox.p2.name' value='FEATURE'/>
+      <property name='org.eclipse.equinox.p2.description' value='Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).&#xA;&#xA;The editor implements the GSN standard as specified at www.goalstructuringnotation.info and the ARM standard available from sysa.omg.org'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='maven-groupId' value='jp.pizzafactory.acedit'/>
+      <property name='maven-artifactId' value='ACEDIT.FEATURE'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.feature.jar' version='1.0.0.v20160522-0017'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='ACEDIT.FEATURE' version='1.0.0.v20160522-0017'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='ACEDIT.FEATURE' version='1.0.0.v20160522-0017'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      Copyright (C) 2016 PizzaFactory Project\\n&#xA;       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/
+    </copyright>
+  </unit>
+  <unit id='ACEDIT.FEATURE.source.feature.group' version='1.0.0.v20160522-0017' singleton='false'>
+    <update id='ACEDIT.FEATURE.source.feature.group' range='[0.0.0,1.0.0.v20160522-0017)' severity='0'/>
+    <properties size='8'>
+      <property name='org.eclipse.equinox.p2.name' value='FEATURE Developer Resources'/>
+      <property name='org.eclipse.equinox.p2.description' value='Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).&#xA;&#xA;The editor implements the GSN standard as specified at www.goalstructuringnotation.info and the ARM standard available from sysa.omg.org'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      <property name='maven-groupId' value='jp.pizzafactory.acedit'/>
+      <property name='maven-artifactId' value='ACEDIT.FEATURE'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.source.feature.group' version='1.0.0.v20160522-0017'/>
+    </provides>
+    <requires size='14'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.feature.group' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.diagram.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.edit.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ARM.editor.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.diagram.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.edit.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.editor.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.figures.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.transformation.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.validation.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='GSN.wizards.source' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.source.feature.jar' range='[1.0.0.v20160522-0017,1.0.0.v20160522-0017]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      Copyright (C) 2016 PizzaFactory Project\\n&#xA;       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/
+    </copyright>
+  </unit>
+  <unit id='ACEDIT.FEATURE.source.feature.jar' version='1.0.0.v20160522-0017'>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='FEATURE Developer Resources'/>
+      <property name='org.eclipse.equinox.p2.description' value='Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).&#xA;&#xA;The editor implements the GSN standard as specified at www.goalstructuringnotation.info and the ARM standard available from sysa.omg.org'/>
+      <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+      <property name='maven-groupId' value='jp.pizzafactory.acedit'/>
+      <property name='maven-artifactId' value='ACEDIT.FEATURE'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+    </properties>
+    <provides size='3'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='ACEDIT.FEATURE.source.feature.jar' version='1.0.0.v20160522-0017'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+      <provided namespace='org.eclipse.update.feature' name='ACEDIT.FEATURE.source' version='1.0.0.v20160522-0017'/>
+    </provides>
+    <filter>
+      (org.eclipse.update.install.features=true)
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='org.eclipse.update.feature' id='ACEDIT.FEATURE.source' version='1.0.0.v20160522-0017'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+    <licenses size='1'>
+      <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+        EPL-1.0
+      </license>
+    </licenses>
+    <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+      Copyright (C) 2016 PizzaFactory Project\\n&#xA;       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/
+    </copyright>
+  </unit>
+</units>
