@@ -4,10 +4,11 @@
   type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
   version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1463878207'/>
+    <property name='p2.timestamp' value='1463978844'/>
   </properties>
- <children size='2'>
+ <children size='3'>
     <child location='1.0.0.v20160521-0736'/>
     <child location='1.0.0.v20160522-0017'/>
+    <child location='1.0.0.v20160523-0400'/>
   </children>
 </repository>
