@@ -1,23 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="ACEDIT.FEATURE"
-      label="FEATURE"
+      id="jp.pizzafactory.acedit"
+      label="Case Assurance Editor tuned by PizzaFactory"
       version="1.0.0.qualifier">
 
    <description url="http://www.example.com/description">
-Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).
+      Editor for Assurance Cases, Implementing the Goal Structuring Notation (GSN) and the OMG Argumentation Metamodel (ARM).
 
 The editor implements the GSN standard as specified at www.goalstructuringnotation.info and the ARM standard available from sysa.omg.org
    </description>
 
    <copyright url="http://www.example.com/copyright">
-       Copyright (C) 2016 PizzaFactory Project\\n
-       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/ 
+      Copyright (C) 2016 PizzaFactory Project\\n
+       This tool is based on code with no copyright description placed at https://code.google.com/archive/p/acedit/
    </copyright>
 
    <license url="http://www.example.com/license">
       EPL-1.0
    </license>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.emf.ecore"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.expressions"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="org.eclipse.ui.navigator.resources"/>
+      <import plugin="org.eclipse.emf.ecore.xmi"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+      <import plugin="org.eclipse.gmf.runtime.emf.core"/>
+      <import plugin="org.eclipse.gmf.runtime.emf.commands.core"/>
+      <import plugin="org.eclipse.gmf.runtime.emf.ui.properties"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.printing"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.printing.render"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.properties"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.providers"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.providers.ide"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.render"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.resources.editor"/>
+      <import plugin="org.eclipse.gmf.runtime.diagram.ui.resources.editor.ide"/>
+      <import plugin="org.eclipse.draw2d"/>
+      <import plugin="org.eclipse.gmf.runtime.draw2d.ui"/>
+      <import plugin="org.eclipse.emf.validation"/>
+      <import plugin="org.eclipse.gef"/>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.epsilon.eol.engine"/>
+      <import plugin="org.eclipse.epsilon.emc.emf"/>
+      <import plugin="org.eclipse.epsilon.etl.engine"/>
+      <import plugin="org.eclipse.epsilon.erl.engine" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="ARM.diagram" version="1.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.epsilon.evl.emf.validation" version="0.9.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui.ide" version="3.6.2" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.epsilon.ewl.emf" version="0.9.0" match="greaterOrEqual"/>
+   </requires>
 
    <plugin
          id="ARM"
